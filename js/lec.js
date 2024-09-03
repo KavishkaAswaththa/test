@@ -44,6 +44,7 @@ function updateAppointment(){
         let venue=$('#exampleFormControlInput8').val();
         let reply=$('#exampleFormControlInput9').val();
 
+
     $.ajax({
         method:"PUT",
         contentType:"application/json",
